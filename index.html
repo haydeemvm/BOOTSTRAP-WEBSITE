@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Kine</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Primer elemento de Bootstrap -->
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/whitelogo.png" alt="logo" width="112" height="48"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Kine</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#quienesSomos">Quiénes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#queHacemos">Qué hacemos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#comoFunciona">Cómo funciona</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#beneficios" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Beneficios
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#beneficios">Descuentos en boletos</a></li>
+                                    <li><a class="dropdown-item" href="#beneficios">Descuentos en comida</a></li>
+                                    <li>
+                                    <li><a class="dropdown-item" href="#beneficios">Salas de cine privadas</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#unirme">Aplicación</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#nuestrasAlianzas">Nuestras Alianzas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#politics">Nuestras Políticas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#unirme">Unirme</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero container-fluid">
+        <h1>BIENVENIDO A KINE</h1>
+        <h4>Explora el mundo del cine con nuestra exclusiva membresía</h4>
+        <div class="hero-buttons">
+            <a href="#unirme"><button type="button" class="btn btn-primary" type="submit"> Unirme</button></a>
+            <a href="#quienesSomos"><button type="button" class="btn btn-outline-primary">Más información</button></a>
+        </div>
+    </section>
+
+
+    <div class="container-fluid my-4 p-4">
+
+        <section id="quienesSomos">
+            <div class="row">
+                <div class="my-4 p-4 col-md-3">
+                    <img src="img/blacklogo.png" alt="Quiénes somos" class="img-fluid">
+                </div>
+                <div class="my-4 p-4 col-md-9">
+                    <h2 class="text-primary-emphasis">Quiénes somos</h2>
+                    <p>
+                        En Kine, nos impulsa una misión clara: transformar la experiencia cinematográfica en Cinépolis y
+                        Cinemark de El Salvador. Nuestra visión es ser el epicentro de la conexión entre los apasionados
+                        del cine y las principales productoras del mundo. Desde hace 5 años, nos comprometemos a brindar
+                        a nuestros miembros una experiencia única, donde la magia del cine cobra vida.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Segundo elemento de bootstrap: cards -->
+            <div class="quienesSomos mt-4 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-3">
+                        <div class="card p-2">
+                            <i class="ph ph-target"></i>
+                            <div class="card-body text-center">
+                                <h4>Misión</h4>
+                                <p class="card-text">Nuestra misión en "Kine" es elevar la experiencia del cine,
+                                    ofreciendo acceso exclusivo a las mejores películas y creando una comunidad cinéfila
+                                    vibrante. Buscamos inspirar, conectar y emocionar a través de historias que
+                                    trascienden la pantalla, llevando la magia del cine a cada rincón de Cinépolis y
+                                    Cinemark en El Salvador.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card p-2">
+                            <i class="ph ph-sparkle"></i>
+                            <div class="card-body text-center">
+                                <h4>Visión</h4>
+                                <p class="card-text">Nos visualizamos como el referente indiscutible en membresías
+                                    cinéfilas, siendo reconocidos por la excelencia en la entrega de experiencias
+                                    cinematográficas únicas. Aspiramos a ser el puente entre los estudios de renombre y
+                                    los amantes del cine, creando un espacio donde la pasión por las películas se
+                                    fusiona con la comunidad cinéfila.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="queHacemos" class="queHacemos">
+            <div class="row">
+                <div class="my-4 p-4 col-md-9">
+                    <h2 class="text-primary-emphasis">Qué hacemos</h2>
+                    <p>
+                        "Kine" va más allá de ser una membresía; es una comunidad cinéfila diseñada para brindar una
+                        experiencia única. Nuestra membresía está diseñada para llevarte más allá de la mera
+                        visualización de películas. Ofrecemos descuentos exclusivos, te mantenemos actualizado con las
+                        últimas noticias del cine a través de nuestra aplicación y te sumergimos en una red social
+                        cinéfila vibrante. En "Kine", creamos conexiones entre los amantes del cine, transformando cada
+                        visita al cine en un evento memorable.
+                    </p>
+                </div>
+                <div class="my-4 p-4 col-md-3">
+                    <img src="img/experience.webp" alt="Qué hacemos" class="img-fluid rounded">
+                </div>
+            </div>
+        </section>
+
+        <section id="comoFunciona">
+            <div class="row">
+                <div class="my-4 p-4 col-md-3">
+                    <img src="img/card.webp" alt="Qué hacemos" class="img-fluid rounded">
+                </div>
+                <div class="my-4 p-4 col-md-9">
+                    <h2 class="text-primary-emphasis">Cómo funciona</h2>
+                    <p>
+                        Con la tarjeta de membresía de "Kine", accedes a descuentos excepcionales en boletos y alimentos
+                        en todos los cines participantes. Simplificamos tu experiencia cinéfila permitiéndote realizar
+                        compras directas desde nuestra aplicación. La mecánica es simple, pero potente: Únete a "Kine",
+                        descarga nuestra aplicación y sumérgete en una experiencia cinematográfica incomparable. Compra
+                        tus
+                        entradas desde la aplicación y también, comparte tus opiniones, descubre nuevas películas
+                        y mantente conectado con otros apasionados del cine mientras exploras todas las facetas
+                        del mágico universo cinematográfico.
+                    </p>
+                    <a href="#unirme"><button type="button" class="btn btn-outline-primary">Unirme</button></a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Segundo elemento de bootstrap: cards -->
+        <section id="beneficios">
+            <h2 class="text-primary-emphasis">Beneficios</h2>
+            <div class="row text-center">
+                <div class="my-4 p-4 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Descuentos en boletos</h5>
+                            <p class="card-text">Obtén descuentos exclusivos al comprar boletos de cine con tu membresía
+                                Kine.</p>
+                        </div>
+                        <img src="img/billete.png" class="card-img-bottom p-5" alt="Descuentos">
+                    </div>
+                </div>
+                <div class=" my-4 p-4 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Descuentos en comida</h5>
+                            <p class="card-text">Disfruta de descuentos especiales en alimentos y bebidas en los cines
+                                afiliados.</p>
+                        </div>
+                        <img src="img/cine.png" class="card-img-bottom p-5" alt="Descuentos">
+                    </div>
+                </div>
+                <div class=" my-4 p-4 col-md-4">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Salas de cine privadas</h5>
+                            <p class="card-text">Accede a experiencias cinematográficas exclusivas en nuestras salas
+                                privadas.</p>
+                        </div>
+                        <img src="img/pantalla-de-cine.png" class="card-img-bottom p-5" alt="Descuentos">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tercer elemento de bootstrap -->
+
+        <section id="nuestrasAlianzas">
+            <div class="my-4">
+                <h2 class="text-primary-emphasis">Nuestras Alianzas</h2>
+
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                            aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                            aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
+                            aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"
+                            aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13"
+                            aria-label="Slide 14"></button>
+
+
+                    </div>
+                    <div class="carousel-inner">
+                        <a href="https://cinepolis.com.sv/">
+                            <div class="carousel-item active">
+                                <img src="img/cinepolis.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cinépolis</h5>
+                                    <p>Es una cadena de cines líder en América Latina y el tercer operador más grande a
+                                        nivel mundial.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.cinemarkca.com/el-salvador">
+                            <div class="carousel-item">
+                                <img src="img/cinemark.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cinemark</h5>
+                                    <p>Es una cadena de cines reconocida a nivel internacional, conocida por brindar
+                                        experiencias cinematográficas excepcionales</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.nbcuniversal.com/">
+                            <div class="carousel-item">
+                                <img src="img/NBCUniversal.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>NBCUniversal</h5>
+                                    <p>Es una de las principales empresas de entretenimiento del mundo. Con una amplia
+                                        gama de divisiones, incluyendo Universal Pictures, el estudio de cine de la
+                                        compañía,
+                                        NBCUniversal ha producido algunas de las películas más icónicas de la historia
+                                        del cine.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.paramount.com/">
+                            <div class="carousel-item">
+                                <img src="img/ParamountGlobal.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Paramount Global</h5>
+                                    <p>Anteriormente conocido como ViacomCBS, Paramount Global es un conglomerado
+                                        mediático que alberga estudios de cine como Paramount Pictures. Con una rica
+                                        historia en la industria del entretenimiento, Paramount ha creado películas que
+                                        han dejado una marca duradera en la cultura popular.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.sonypictures.com/">
+                            <div class="carousel-item">
+                                <img src="img/Sony-Pictures-logo.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sony Pictures</h5>
+                                    <p>Anteriormente conocido como ViacomCBS, Paramount Global es un conglomerado
+                                        mediático que alberga estudios de cine como Paramount Pictures. Con una rica
+                                        historia en la industria del entretenimiento, Paramount ha creado películas que
+                                        han dejado una marca duradera en la cultura popular.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.disneystudios.com/">
+                            <div class="carousel-item">
+                                <img src="img/WaltDisnet.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Walt Disney Studios</h5>
+                                    <p>Como uno de los estudios más reconocidos y exitosos, Walt Disney Studios ha sido
+                                        el hogar de innumerables clásicos animados y películas en acción real. Disney ha
+                                        creado universos mágicos que han cautivado a audiencias de todas las edades en
+                                        todo el mundo.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.warnerbros.com/">
+                            <div class="carousel-item">
+                                <img src="img/warner-bros-new-logo-designboom-01.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Warner Bros. Entertainment</h5>
+                                    <p>Warner Bros. es un gigante en la industria del entretenimiento, abarcando
+                                        películas, televisión, música y más. Con una biblioteca diversa, Warner Bros. ha
+                                        producido desde éxitos de taquilla hasta películas aclamadas por la crítica.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.tohostudio.jp/en/">
+                            <div class="carousel-item">
+                                <img src="img/toho.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Toho Studios</h5>
+                                    <p>Toho es un estudio japonés conocido por sus contribuciones al cine japonés,
+                                        especialmente en el género de kaiju (monstruos gigantes). Toho es famoso por la
+                                        creación de Godzilla, un ícono cultural en todo el mundo.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.ghibli.jp/">
+                            <div class="carousel-item">
+                                <img src="img/studioghibli.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Studio Ghibli</h5>
+                                    <p>Studio Ghibli, con su enfoque en la animación japonesa, ha ganado reconocimiento
+                                        internacional por sus películas únicas y visualmente impresionantes. Fundado por
+                                        Hayao Miyazaki y Isao Takahata, Studio Ghibli ha creado obras maestras del cine
+                                        animado.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.ufotable.com/">
+                            <div class="carousel-item">
+                                <img src="img/ufotable_logo-1.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Ufotable</h5>
+                                    <p class="text-black">Ufotable es un estudio de animación japonés conocido por su
+                                        trabajo en anime, especialmente en adaptaciones de novelas visuales. Han ganado
+                                        reputación por su calidad visual y narrativa en sus producciones.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.witstudio.co.jp/">
+                            <div class="carousel-item">
+                                <img src="img/WIT_AnimeMatsuri_2020.avif" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Wit Studio</h5>
+                                    <p class="text-black">Es otro estudio de animación japonés conocido por su
+                                        participación en la producción de anime. Han trabajado en series y películas que
+                                        han ganado popularidad tanto en Japón como a nivel internacional.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.cwfilms.jp/en/">
+                            <div class="carousel-item">
+                                <img src="img/comixwave.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Comix Wave Films</h5>
+                                    <p class="text-black">Comix Wave Films es un estudio de animación japonés que se ha
+                                        destacado en la creación de películas de anime emotivas y visualmente hermosas.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.mappa.co.jp/en/">
+                            <div class="carousel-item">
+                                <img src="img/mappa.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>MAPPA</h5>
+                                    <p>es un estudio de animación japonés conocido por su versatilidad en la producción
+                                        de diferentes géneros de anime, desde series de televisión hasta películas.
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.madhouse.co.jp/">
+                            <div class="carousel-item">
+                                <img src="img/MADHOUSE.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Madhouse</h5>
+                                    <p>Madhouse es un renombrado estudio de animación japonés que ha producido una
+                                        variedad de series y películas de anime, destacándose por su calidad artística y
+                                        narrativa.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cuarto elemento de bootstrap -->
+        <section class="politics" id="politics">
+            <h2 class="text-primary-emphasis">Nuestras políticas</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Política de cancelación
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Cancelación flexible:</strong> En Kine, entendemos que las circunstancias pueden cambiar. Por ello, ofrecemos una política de cancelación flexible. Puedes cancelar tu membresía en cualquier momento sin cargos adicionales. Nos esforzamos por brindarte la libertad de disfrutar de tu experiencia cinéfila sin preocupaciones.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Política de privacidad
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Seguridad y privacidad:</strong> En Kine, nos tomamos muy en serio tu privacidad y seguridad. No compartiremos tu información personal con terceros sin tu consentimiento explícito. Utilizamos medidas de seguridad avanzadas para proteger tus datos y garantizar una experiencia segura mientras disfrutas de todas las ventajas de tu membresía.
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Política de Beneficios
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Optimizamos tu experiencia:</strong> Nos comprometemos a mejorar constantemente tu experiencia con Kine. Ajustamos y actualizamos regularmente los beneficios de la membresía para proporcionarte descuentos exclusivos, acceso a estrenos emocionantes y ofertas especiales. Queremos que cada visita al cine sea única y memorable para ti.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quinto elemento de bootstrap -->
+        <section id="unirme">
+            <div class="my-4">
+                <h2 class="text-primary-emphasis ">Unirme</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="correo"
+                            placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contraseña" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Confirma tus datos</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Unirme ahora</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
